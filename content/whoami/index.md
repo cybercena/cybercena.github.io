@@ -1,0 +1,40 @@
+
+```
+   _____                             
+  / ____|                            
+ | (___   ___  _ __   __ _ _ __ ___  
+  \___ \ / _ \| '_ \ / _` | '_ ` _ \ 
+  ____) | (_) | | | | (_| | | | | | |
+ |_____/ \___/|_| |_|\__,_|_| |_| |_|
+                                                                                                            
+```
+
+## Cybersecurity learner | CTF Player 
+
+### **Personals:**
+- I'm pursuing Bachelor's degree (BIM)
+- I'm a part time Cybersecurity learner
+- I'm from Nepal 
+
+
+### **Certifications**
+
+|                   Name                       |    Issued By     |                                                                                   Verify At                                                                                    |
+| :-------------------------------------------------: | :--------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **Introduction to Cybersecurity**        |        Cisco |  [Verify](https://www.credly.com/badges/dd9f1062-d079-424f-bf69-248c61a0746a/public_url) |
+| **Foundations of Cybersecurity**         |       Google |  [Verify](https://www.coursera.org/account/accomplishments/verify/CQMR5MHQSKKK)  |
+| **Foundations of Cybersecurity**         |       Google |  [Verify](https://www.coursera.org/account/accomplishments/verify/CQMR5MHQSKKK)  |
+| **Foundations of Cybersecurity**         |       Google |  [Verify](https://www.coursera.org/account/accomplishments/verify/CQMR5MHQSKKK)  |
+|   **Play It Safe: Manage Security Risks**  |    Google |  [Verify](https://www.coursera.org/verify/4BS63BFBNSPU)  |
+
+
+
+**Peek into my projects:** [GitHub Portfolio](https://github.com/cybercena)  
+**Latest posts:** [/posts]()
+
+### **Ask me about:** 
+- Basics of Cybersecurity
+- Basics of Networking & linux
+- Python Programming 🐍
+
+### **Reach me at:** `cybercena[@]protonmail.com`
