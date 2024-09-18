@@ -36,4 +36,4 @@
 - Basics of Networking & linux
 - Python Programming 🐍
 
-### **Reach me at:** `cybercena[@]protonmail.com`
+### **Reach me at:** `ping[@]sonam.info.np`
