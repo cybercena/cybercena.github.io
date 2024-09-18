@@ -33,19 +33,19 @@ params:
   showtoc: false
   tocopen: false
 
-  # assets:
-  #     # disableHLJS: true # to disable highlight.js
-  #     # disableFingerprinting: true
-  #     favicon: "https://raw.githubusercontent.com/Rezy-Dev/Rezy-Dev.github.io/master/static/me.png"
-  #     favicon16x16: "https://raw.githubusercontent.com/Rezy-Dev/Rezy-Dev.github.io/master/static/me.png"
-  #     favicon32x32: "https://raw.githubusercontent.com/Rezy-Dev/Rezy-Dev.github.io/master/static/me.png"
-  #     apple_touch_icon: "https://raw.githubusercontent.com/Rezy-Dev/Rezy-Dev.github.io/master/static/me.png"
-  #     safari_pinned_tab: "https://raw.githubusercontent.com/Rezy-Dev/Rezy-Dev.github.io/master/static/me.png"
+  assets:
+      # disableHLJS: true # to disable highlight.js
+      # disableFingerprinting: true
+      favicon: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
+      favicon16x16: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
+      favicon32x32: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
+      apple_touch_icon: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
+      safari_pinned_tab: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
 
   label:
   # label for title
     text: "Sonam"  
-    # icon: "https://raw.githubusercontent.com/Rezy-Dev/Rezy-Dev.github.io/master/static/me.png"
+    icon: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
     iconHeight: 35
 
   # profile-mode
@@ -53,7 +53,7 @@ params:
     enabled: false # needs to be explicitly set
     title: Sonam
     subtitle: "learning tech stuffs"
-    # imageUrl: "https://raw.githubusercontent.com/Rezy-Dev/Rezy-Dev.github.io/master/static/me.png"
+    imageUrl: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
