@@ -24,5 +24,5 @@ Now we need to find out the sister city of Chongqing, which is located in Nepal,
 ![bharatpur city](bharatpur.png)
 ![mayor of bharatpur](mayor.png)
 
-After gather all the info we need , we finally got the flag:
+After gathering all the info we need , we finally got the flag:
 ```nca{chongqing_bharatpur_renu_dahal}```
