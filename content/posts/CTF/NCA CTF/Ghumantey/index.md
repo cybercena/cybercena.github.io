@@ -10,7 +10,8 @@ Tags:
 - OSINT
 ---
 
-Recently, I created an OSINT challenge for Team NCA@Nepal. The challenge, called ‘Ghumantey,’ is considered the most confusing and difficult OSINT challenge in the NCA CTF. So far, only two teams have solved it at last moment.
+Recently, I created an OSINT challenge for Team [NCA@Nepal](https://ncateam.xyz/about/)
+. The challenge, called ‘Ghumantey,’ is considered the most confusing and difficult OSINT challenge in the NCA CTF. So far, only two teams have solved it at last moment.
 
 ![Challenge solving by two team](twoteam.png)
 
