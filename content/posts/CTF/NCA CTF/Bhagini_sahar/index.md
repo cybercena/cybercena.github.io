@@ -11,7 +11,7 @@ Tags:
 - OSINT
 ---
 
-Bhagini Sahar is the CTF challenge related to OSINT hosted by Team NCA@Nepal. NCA@Nepal is an active CTF and cybersecurity community in Nepal. A short description and image are provided in the challenge.
+Bhagini Sahar is the CTF challenge related to OSINT hosted by [NCA@Nepal](https://ncateam.xyz/about/). NCA@Nepal is an active CTF and cybersecurity community in Nepal. A short description and image are provided in the challenge.
 ![description ](description.png)
 ![image of challenge](chall.png)
 
