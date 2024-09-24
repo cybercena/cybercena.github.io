@@ -3,7 +3,11 @@ title: "NCA CTF:Ghumantey writeup"
 date: 2024-09-24
 draft: false
 cover:
-    image: "content/posts/CTF/NCA CTF/Ghumantey/NCA.jpg"
+    image: "NCA.jpg"
+    cover:
+    image: "cover.jpg" # The image is in the same folder, no need for a path
+    alt: "Cover Image Description"
+    caption: "Optional caption for the image"
 Tags:
 - CTF
 - Ghumantey
