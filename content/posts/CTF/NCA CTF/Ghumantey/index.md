@@ -46,7 +46,7 @@ In the image, the words ‘pizza’ and ‘massage’ are mentioned, and there i
 We found the exact location of Sharon’s Massage Center: 8072 California City Blvd, California City, CA 93505. Now we can use Google Earth for a virtual tour. It’s the best tool for an OSINT challenge.
 
 ![google earth image of pizza shop](googleearth.png)
-In the image, we can see the nearest pizzeria located near the massage center mentioned on Twitter, and the location looks the same. We have found the country name and the name of the pizzeria; now we need to find the email for DiMaggio’s. I think Google dorking will be the best for information gathering. I used
+In the image, we can see the nearest pizzeria located near the massage center mentioned on Twitter, and the location looks the same. We have found the country name and the name of the pizzeria; now we need to find the email for DiMaggio’s. I think Google dorking will be the best for information gathering. I used: 
 ``` site:facebook.com "Dimaggio's" "California"```
 
 ![google dorking image](dorking.png)
