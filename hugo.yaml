@@ -39,16 +39,17 @@ params:
   assets:
       # disableHLJS: true # to disable highlight.js
       # disableFingerprinting: true
-      favicon: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
-      favicon16x16: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
-      favicon32x32: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
-      apple_touch_icon: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
-      safari_pinned_tab: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
+      favicon: "/images/sonam.png"
+      favicon16x16: "/images/sonam.png"  # You might want to use a specific 16x16 version if possible
+      favicon32x32: "/images/sonam.png"  # You might want to use a specific 32x32 version if possible
+      apple_touch_icon: "/images/sonam.png"
+      safari_pinned_tab: "/images/sonam.png"
+
 
   label:
   # label for title
     text: "Sonam"  
-    icon: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
+    icon: "/images/sonam.png"
     iconHeight: 35
 
   # profile-mode
@@ -56,7 +57,7 @@ params:
     enabled: false # needs to be explicitly set
     title: Sonam
     subtitle: "learning tech stuffs"
-    imageUrl: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
+    imageUrl: "/images/sonam.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
