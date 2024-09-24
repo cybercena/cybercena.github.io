@@ -2,7 +2,8 @@
 title: "NCA CTF:Ghumantey writeup"
 date: 2024-09-24
 draft: false
-featured_image: "./description.png"
+cover:
+    image: "content/posts/CTF/NCA CTF/Ghumantey/NCA.jpg"
 Tags:
 - CTF
 - Ghumantey
