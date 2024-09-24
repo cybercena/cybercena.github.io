@@ -6,7 +6,10 @@ theme: ["PaperMod"]
 enableRobotsTXT: false
 
 params:
+  params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  useOpengraph: true
+  useTwitterCards: true
   title: Sonam
   description: "Hi, I’m Sonam , learning tech stuffs"
   keywords: [Blog, Portfolio, Writeup,cybercena,sonam]
