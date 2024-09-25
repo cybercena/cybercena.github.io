@@ -3,6 +3,8 @@ title: "NCA CTF:Gaganchumbi Mahal writeup"
 date: 2024-09-25
 draft: false
 images: ["/images/NCA.jpg"]
+cover:
+    image: "/images/NCA.jpg"
 Tags:
 - CTF
 - Gaganchumbi mahal
