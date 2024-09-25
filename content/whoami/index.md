@@ -1,5 +1,4 @@
-
-![profile picture](sonam.png)
+![profile picture](image.png)
 
 ## Cybersecurity learner | CTF Player 
 
