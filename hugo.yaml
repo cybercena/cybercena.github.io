@@ -19,6 +19,7 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: false
+  hamBurgerMenu: true
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -33,23 +34,22 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
+  showtoc: true   #test phase
+  tocopen: true   #test phase
 
   assets:
       # disableHLJS: true # to disable highlight.js
       # disableFingerprinting: true
-      favicon: "/images/sonam.png"
-      favicon16x16: "/images/sonam.png"  # You might want to use a specific 16x16 version if possible
-      favicon32x32: "/images/sonam.png"  # You might want to use a specific 32x32 version if possible
-      apple_touch_icon: "/images/sonam.png"
-      safari_pinned_tab: "/images/sonam.png"
-
+      favicon: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
+      favicon16x16: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
+      favicon32x32: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
+      apple_touch_icon: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
+      safari_pinned_tab: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
 
   label:
   # label for title
     text: "Sonam"  
-    icon: "/images/sonam.png"
+    icon: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
     iconHeight: 35
 
   # profile-mode
@@ -57,7 +57,7 @@ params:
     enabled: false # needs to be explicitly set
     title: Sonam
     subtitle: "learning tech stuffs"
-    imageUrl: "/images/sonam.png"
+    imageUrl: "https://github.com/cybercena/cybercena.github.io/blob/master/static/sonam.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -93,7 +93,7 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
+    hidden: false # hide everywhere but not in structured data  #testing phase
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
