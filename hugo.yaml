@@ -19,7 +19,6 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: false
-  hamBurgerMenu: true
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -34,8 +33,8 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: true   #test phase
-  tocopen: true   #test phase
+  showtoc: false
+  tocopen: false
 
   assets:
       # disableHLJS: true # to disable highlight.js
@@ -93,7 +92,7 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: false # hide everywhere but not in structured data  #testing phase
+    hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
@@ -116,19 +115,19 @@ params:
 menu:
   main:
     - identifier: about
-      name: 👨🏼‍💻 Whoami
+      name: Whoami
       url: /whoami/
       weight: 35
     - identifier: posts
-      name: ✍️ Posts
+      name: Posts
       url: /posts/
       weight: 5
     - identifier: tags
-      name: 🏷️ Tags
+      name: Tags
       url: /tags/
       weight: 30
     - identifier: search
-      name: 🔍 Search
+      name: Search
       url: /search/
       weight: 25
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
