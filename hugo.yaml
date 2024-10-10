@@ -81,7 +81,7 @@ params:
     - name: github
       url: "https://github.com/cybercena"
     - name: youtube
-      url: "https://youtube.com/@cybercena"
+      url: "https://youtube.com/@learnwithcybercena"
 
   analytics:
     google:
