@@ -39,7 +39,7 @@ I opened the link and found a PDF. When I checked the PDF, I found some clues ab
 
 Then, I searched for “English language center in Saskatchewan” and got many results. The image provided in the challenge had the text "GATH," so I selected the first option. After analyzing the information provided by Google, I saw there was an option to view the location using 360-degree street views.
 
-![Street View 1](/content/posts/CTF/WSC_CTF_2024_Quals/elc1.png)
+![Street View 1](elc1.png)
 
 ![Street View 2](elc2.png)
 
