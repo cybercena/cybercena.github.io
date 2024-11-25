@@ -1,5 +1,5 @@
 ---
-title: "WSC CTF 2024 Quals : A challenge worth iPhone 16 pro max"
+title: "WSC CTF 2024 Quals : Scammer"
 date: 2024-11-25
 draft: false
 tags:
