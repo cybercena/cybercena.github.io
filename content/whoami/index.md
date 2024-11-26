@@ -1,5 +1,5 @@
 
-## Cybersecurity learner | CTF Player 
+## Cybersecurity learner | CTF Player
 
 ### **Personals:**
 - I'm pursuing Bachelor's degree (BIM)
