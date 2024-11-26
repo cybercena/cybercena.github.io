@@ -1,4 +1,4 @@
-![profile picture](image.png)
+
 ## Cybersecurity learner | CTF Player 
 
 ### **Personals:**
