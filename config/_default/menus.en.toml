@@ -20,20 +20,20 @@
   pageRef = "whoami"
   weight = 20
 
-[[main]]
-  name = "research"
-  pageRef = "research"
-  weight = 30
+#[[main]]
+# name = "research"
+#  pageRef = "research"
+# weight = 30
 
 [[main]]
   name = "writeups"
   pageRef = "writeups"
   weight = 40
 
-[[main]]
-  name = "projects"
-  pageRef = "projects"
-  weight = 60
+#[[main]]
+# name = "projects"
+# pageRef = "projects"
+# weight = 60
 
 [[main]]
   name = "tags"
