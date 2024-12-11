@@ -7,7 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Sonam Tamang </copyright>
-    <lastBuildDate>Wed, 25 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Secret Mission</title>
+      <link>http://localhost:1313/writeups/ctf/the-lost-case/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/writeups/ctf/the-lost-case/</guid>
+      <description>Description: # Dear agents, It is come to our attention that the two possible spies we were to search for, have gone into hiding.</description>
+      
+    </item>
+    
+    <item>
+      <title>WSC CTF 2024 Quals : A challenge worth iPhone 16 pro max</title>
+      <link>http://localhost:1313/writeups/ctf/iphone/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/writeups/ctf/iphone/</guid>
+      <description>Recently, I got the chance to play the WSC CTF challenge organized by We Shield Cyber and sponsored by NCA Nepal and Hack@sec.</description>
+      
+    </item>
+    
+    <item>
+      <title>WSC CTF 2024 Quals : Scammer</title>
+      <link>http://localhost:1313/writeups/ctf/scammer/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/writeups/ctf/scammer/</guid>
+      <description>Recently I have create a osint Challenge, &amp;lsquo;Scammer&amp;rsquo; for WSC CTF .</description>
+      
+    </item>
+    
+    <item>
+      <title>WSC CTF 2024 Quals: Ransome</title>
+      <link>http://localhost:1313/writeups/ctf/ransome/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/writeups/ctf/ransome/</guid>
+      <description>[Note: the email was blured for user privacy]</description>
+      
+    </item>
+    
     <item>
       <title>NCA CTF:Gaganchumbi Mahal writeup</title>
       <link>http://localhost:1313/writeups/ctf/gaganchumbi_mahal/</link>
@@ -15,6 +55,16 @@
       
       <guid>http://localhost:1313/writeups/ctf/gaganchumbi_mahal/</guid>
       <description>Gaganchumbi Mahal is an OSINT-related CTF challenge hosted by Team NCA@Nepal.</description>
+      
+    </item>
+    
+    <item>
+      <title>Ghumantey 2.0 - WSC CTF </title>
+      <link>http://localhost:1313/writeups/ctf/ghumantey-2/</link>
+      <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/writeups/ctf/ghumantey-2/</guid>
+      <description>Description: # Last time, you guys helped me win the brand-new iPhone 16 that my friend promised me.</description>
       
     </item>
     
@@ -44,7 +94,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/whoami/</guid>
-      <description>Cybersecurity learner | CTF Player # Personals: # I&amp;rsquo;m pursuing Bachelor&amp;rsquo;s degree (BIM) I&amp;rsquo;m a part time Cybersecurity learner I&amp;rsquo;m from Nepal Certifications # Name Issued By Verify At Introduction to Cybersecurity Cisco Verify Foundations of Cybersecurity Google Verify Play It Safe: Manage Security Risks Google Verify Networking Basics Cisco Verify Peek into my projects: GitHub Portfolio</description>
+      <description>Cybersecurity learner | CTF Player # Personals: # I&amp;rsquo;m pursuing Bachelor&amp;rsquo;s degree (BIM) I&amp;rsquo;m a part time Cybersecurity learner I&amp;rsquo;m from Nepal Certifications # Name Issued By Verify At Google Cybersecurity Professional Certificate Google Verify Introduction to Cybersecurity Cisco Verify Foundations of Cybersecurity Google Verify Play It Safe: Manage Security Risks Google Verify Networking Basics Cisco Verify Peek into my projects: GitHub Portfolio</description>
       
     </item>
     

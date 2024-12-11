@@ -4,12 +4,43 @@
 
   <url>
     <loc>http://localhost:1313/writeups/ctf/</loc>
-    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/writeups/hackthebox/</loc>
+    <loc>http://localhost:1313/writeups/ctf/the-lost-case/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/writeups/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/writeups/ctf/iphone/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/writeups/ctf/scammer/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/writeups/ctf/ransome/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -20,14 +51,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/writeups/</loc>
-    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/writeups/ctf/ghumantey-2/</loc>
+    <lastmod>2024-09-24T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

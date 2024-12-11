@@ -11,10 +11,13 @@
 
 |                   Name                       |    Issued By     |                                                                                   Verify At                                                                                    |
 | :-------------------------------------------------: | :--------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **Google Cybersecurity Professional Certificate**                      |Google   | [Verify](https://coursera.org/share/f4802ac2914d0802fdfc3fc834384a04)     |  
 | **Introduction to Cybersecurity**        |        Cisco |  [Verify](https://www.credly.com/badges/dd9f1062-d079-424f-bf69-248c61a0746a/public_url) |
 | **Foundations of Cybersecurity**         |       Google |  [Verify](https://www.coursera.org/account/accomplishments/verify/CQMR5MHQSKKK)  |
 |   **Play It Safe: Manage Security Risks**  |    Google |  [Verify](https://www.coursera.org/verify/4BS63BFBNSPU)  |
-| **Networking Basics**                      |Cisco   | [Verify](https://www.credly.com/badges/7f42f3d5-5d39-4fc3-87e8-2c80aa0fbd78/public_url)     |                    
+| **Networking Basics**                      |Cisco   | [Verify](https://www.credly.com/badges/7f42f3d5-5d39-4fc3-87e8-2c80aa0fbd78/public_url)     |   
+                  
+
 
 
 
