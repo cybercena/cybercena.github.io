@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Sonam Tamang </copyright>
-    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Privacy Alert: How Enabling This Feature Keeps Your Email Safe</title>
+      <link>http://localhost:1313/research/github_email/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/research/github_email/</guid>
+      <description>Introduction: # GitHub is one of the most significant and widely used tools by IT professionals and developers.</description>
+      
+    </item>
+    
     <item>
       <title>Secret Mission</title>
       <link>http://localhost:1313/writeups/ctf/the-lost-case/</link>

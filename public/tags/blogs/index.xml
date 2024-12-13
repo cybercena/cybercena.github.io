@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Sonam</title>
+    <link>http://localhost:1313/tags/blogs/</link>
+    <description>Recent content in Blogs on Sonam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Sonam Tamang </copyright>
+    <lastBuildDate>Fri, 13 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Privacy Alert: How Enabling This Feature Keeps Your Email Safe</title>
+      <link>http://localhost:1313/research/github_email/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/research/github_email/</guid>
+      <description>Bhagini Sahar is the CTF challenge related to OSINT hosted by NCA@Nepal.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -20,10 +20,10 @@
   pageRef = "whoami"
   weight = 20
 
-#[[main]]
-# name = "research"
-#  pageRef = "research"
-# weight = 30
+[[main]]
+ name = "blogs"
+  pageRef = "research"
+ weight = 30
 
 [[main]]
   name = "writeups"

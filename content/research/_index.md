@@ -1,9 +1,9 @@
 ---
-title: "Research"
-description: Peek into my research posts, where I break down fresh vulnerabilities, unravel how they work, and drop my own discoveries.
+title: "Blogs"
+description: Step into my world of tech blogs, where I break down complex ideas, explore innovative concepts, and share insights from my own discoveries. These posts aim to simplify the technical, spark curiosity, and inspire fresh perspectives.
 type: "list"
 hidemeta: true
 cascade:
   showReadingTime: false
 --- 
-Peek into my research posts, where I break down fresh vulnerabilities, unravel how they work, and drop my own discoveries.
+Step into my world of tech blogs, where I break down complex ideas, explore innovative concepts, and share insights from my own discoveries. These posts aim to simplify the technical, spark curiosity, and inspire fresh perspectives.
