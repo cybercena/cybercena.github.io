@@ -1,5 +1,5 @@
 ---
-title: "GitHub Privacy Alert: How Enabling This Feature Keeps Your Email Safe"
+title: "GitHub Email Leak"
 date: 2024-12-13
 draft: false
 images: ["/images/description.png"]
