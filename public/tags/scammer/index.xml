@@ -9,22 +9,22 @@
     <copyright>© 2025 Sonam Tamang </copyright>
     <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/scammer/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Secret Mission</title>
-      <link>http://localhost:1313/writeups/ctf/the-lost-case/</link>
+      <title>Scammer</title>
+      <link>http://localhost:1313/writeups/ctf/wscctf/scammer/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/writeups/ctf/the-lost-case/</guid>
-      <description>Description: # Dear agents, It is come to our attention that the two possible spies we were to search for, have gone into hiding.</description>
+      <guid>http://localhost:1313/writeups/ctf/wscctf/scammer/</guid>
+      <description>Recently I have create a osint Challenge, &amp;lsquo;Scammer&amp;rsquo; for WSC CTF .</description>
       
     </item>
     
     <item>
-      <title>WSC CTF 2024 Quals : Scammer</title>
-      <link>http://localhost:1313/writeups/ctf/scammer/</link>
+      <title>Secret Mission</title>
+      <link>http://localhost:1313/writeups/ctf/wscctf/the-lost-case/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/writeups/ctf/scammer/</guid>
-      <description>Recently I have create a osint Challenge, &amp;lsquo;Scammer&amp;rsquo; for WSC CTF .</description>
+      <guid>http://localhost:1313/writeups/ctf/wscctf/the-lost-case/</guid>
+      <description>Description: # Dear agents, It is come to our attention that the two possible spies we were to search for, have gone into hiding.</description>
       
     </item>
     
