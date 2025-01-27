@@ -22,10 +22,11 @@
 
 
 **Peek into my projects:** [GitHub Portfolio](https://github.com/cybercena)  
-**Latest posts:** [/posts]()
+**Latest posts:** [/blogs]()
 
 ### **Ask me about:** 
 - Basics of Cybersecurity
+- OSINT and Google Dorking
 - Basics of Networking & linux
 - Python Programming 🐍
 

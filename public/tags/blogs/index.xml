@@ -6,15 +6,15 @@
     <description>Recent content in Blogs on Sonam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 Sonam Tamang </copyright>
+    <copyright>© 2025 Sonam Tamang </copyright>
     <lastBuildDate>Fri, 13 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>GitHub Privacy Alert: How Enabling This Feature Keeps Your Email Safe</title>
-      <link>http://localhost:1313/research/github_email/</link>
+      <title>GitHub Email Leak</title>
+      <link>http://localhost:1313/research/github_email_leak/</link>
       <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/research/github_email/</guid>
-      <description>Bhagini Sahar is the CTF challenge related to OSINT hosted by NCA@Nepal.</description>
+      <guid>http://localhost:1313/research/github_email_leak/</guid>
+      <description>Introduction: # GitHub is one of the most significant and widely used tools by IT professionals and developers.</description>
       
     </item>
     

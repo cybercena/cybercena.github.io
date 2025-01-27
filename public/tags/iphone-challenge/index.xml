@@ -6,24 +6,24 @@
     <description>Recent content in IPhone Challenge on Sonam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 Sonam Tamang </copyright>
+    <copyright>© 2025 Sonam Tamang </copyright>
     <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/iphone-challenge/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>WSC CTF 2024 Quals : A challenge worth iPhone 16 pro max</title>
-      <link>http://localhost:1313/writeups/ctf/iphone/</link>
+      <title>A challenge worth iPhone 16 pro max</title>
+      <link>http://localhost:1313/writeups/ctf/wscctf/iphone/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/writeups/ctf/iphone/</guid>
+      <guid>http://localhost:1313/writeups/ctf/wscctf/iphone/</guid>
       <description>Recently, I got the chance to play the WSC CTF challenge organized by We Shield Cyber and sponsored by NCA Nepal and Hack@sec.</description>
       
     </item>
     
     <item>
       <title>WSC CTF 2024 Quals: Ransome</title>
-      <link>http://localhost:1313/writeups/ctf/ransome/</link>
+      <link>http://localhost:1313/writeups/ctf/wscctf/ransome/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/writeups/ctf/ransome/</guid>
+      <guid>http://localhost:1313/writeups/ctf/wscctf/ransome/</guid>
       <description>[Note: the email was blured for user privacy]</description>
       
     </item>

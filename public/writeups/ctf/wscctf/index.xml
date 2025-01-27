@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WSCxNCA CTF 2024 on Sonam</title>
+    <link>http://localhost:1313/writeups/ctf/wscctf/</link>
+    <description>Recent content in WSCxNCA CTF 2024 on Sonam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Sonam Tamang </copyright>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/writeups/ctf/wscctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A challenge worth iPhone 16 pro max</title>
+      <link>http://localhost:1313/writeups/ctf/wscctf/iphone/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/writeups/ctf/wscctf/iphone/</guid>
+      <description>Recently, I got the chance to play the WSC CTF challenge organized by We Shield Cyber and sponsored by NCA Nepal and Hack@sec.</description>
+      
+    </item>
+    
+    <item>
+      <title>Scammer</title>
+      <link>http://localhost:1313/writeups/ctf/wscctf/scammer/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/writeups/ctf/wscctf/scammer/</guid>
+      <description>Recently I have create a osint Challenge, &amp;lsquo;Scammer&amp;rsquo; for WSC CTF .</description>
+      
+    </item>
+    
+    <item>
+      <title>Secret Mission</title>
+      <link>http://localhost:1313/writeups/ctf/wscctf/the-lost-case/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/writeups/ctf/wscctf/the-lost-case/</guid>
+      <description>Description: # Dear agents, It is come to our attention that the two possible spies we were to search for, have gone into hiding.</description>
+      
+    </item>
+    
+    <item>
+      <title>WSC CTF 2024 Quals: Ransome</title>
+      <link>http://localhost:1313/writeups/ctf/wscctf/ransome/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/writeups/ctf/wscctf/ransome/</guid>
+      <description>[Note: the email was blured for user privacy]</description>
+      
+    </item>
+    
+    <item>
+      <title>Ghumantey 2.0</title>
+      <link>http://localhost:1313/writeups/ctf/wscctf/ghumantey-2/</link>
+      <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/writeups/ctf/wscctf/ghumantey-2/</guid>
+      <description>Description: # Last time, you guys helped me win the brand-new iPhone 16 that my friend promised me.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
