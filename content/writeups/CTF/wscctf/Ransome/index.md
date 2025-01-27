@@ -1,5 +1,5 @@
 ---
-title: "WSC CTF 2024 Quals: Ransome"
+title: "Ransome"
 date: 2024-11-25
 draft: false
 tags:

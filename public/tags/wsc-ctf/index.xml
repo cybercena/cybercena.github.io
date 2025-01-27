@@ -15,7 +15,17 @@
       
       <guid>http://localhost:1313/writeups/ctf/wscctf/iphone/</guid>
       <description>Recently, I got the chance to play the WSC CTF challenge organized by We Shield Cyber and sponsored by NCA Nepal and Hack@sec.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeups/ctf/wscctf/iphone/features.png" />
+    </item>
+    
+    <item>
+      <title>Ransome</title>
+      <link>http://localhost:1313/writeups/ctf/wscctf/ransome/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       
+      <guid>http://localhost:1313/writeups/ctf/wscctf/ransome/</guid>
+      <description>[Note: the email was blured for user privacy]</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeups/ctf/wscctf/ransome/features.png" />
     </item>
     
     <item>
@@ -25,27 +35,17 @@
       
       <guid>http://localhost:1313/writeups/ctf/wscctf/scammer/</guid>
       <description>Recently I have create a osint Challenge, &amp;lsquo;Scammer&amp;rsquo; for WSC CTF .</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeups/ctf/wscctf/scammer/features.png" />
     </item>
     
     <item>
       <title>Secret Mission</title>
-      <link>http://localhost:1313/writeups/ctf/wscctf/the-lost-case/</link>
+      <link>http://localhost:1313/writeups/ctf/wscctf/secret-mission/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/writeups/ctf/wscctf/the-lost-case/</guid>
+      <guid>http://localhost:1313/writeups/ctf/wscctf/secret-mission/</guid>
       <description>Description: # Dear agents, It is come to our attention that the two possible spies we were to search for, have gone into hiding.</description>
-      
-    </item>
-    
-    <item>
-      <title>WSC CTF 2024 Quals: Ransome</title>
-      <link>http://localhost:1313/writeups/ctf/wscctf/ransome/</link>
-      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/writeups/ctf/wscctf/ransome/</guid>
-      <description>[Note: the email was blured for user privacy]</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeups/ctf/wscctf/secret-mission/features.png" />
     </item>
     
     <item>
@@ -55,7 +55,7 @@
       
       <guid>http://localhost:1313/writeups/ctf/wscctf/ghumantey-2/</guid>
       <description>Description: # Last time, you guys helped me win the brand-new iPhone 16 that my friend promised me.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeups/ctf/wscctf/ghumantey-2/features.png" />
     </item>
     
   </channel>

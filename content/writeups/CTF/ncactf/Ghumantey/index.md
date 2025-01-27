@@ -2,7 +2,6 @@
 title: "Ghumantey"
 date: 2024-09-24
 draft: false
-images: ["/images/NCA.jpg"]
 Tags:
 - CTF
 - Ghumantey

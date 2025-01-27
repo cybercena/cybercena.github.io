@@ -15,7 +15,7 @@
       
       <guid>http://localhost:1313/writeups/ctf/ncactf/gaganchumbi_mahal/</guid>
       <description>Gaganchumbi Mahal is an OSINT-related CTF challenge hosted by Team NCA@Nepal.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeups/ctf/ncactf/gaganchumbi_mahal/features.png" />
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       
       <guid>http://localhost:1313/writeups/ctf/ncactf/bhagini_sahar/</guid>
       <description>Bhagini Sahar is the CTF challenge related to OSINT hosted by NCA@Nepal.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeups/ctf/ncactf/bhagini_sahar/features.png" />
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       
       <guid>http://localhost:1313/writeups/ctf/ncactf/ghumantey/</guid>
       <description>Recently, I created an OSINT challenge for Team NCA@Nepal .</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeups/ctf/ncactf/ghumantey/features.png" />
     </item>
     
   </channel>

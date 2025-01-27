@@ -2,7 +2,6 @@
 title: "Gaganchumbi Mahal"
 date: 2024-09-25
 draft: false
-images: ["/images/NCA.jpg"]
 cover:
     image: "/images/NCA.jpg"
 Tags:

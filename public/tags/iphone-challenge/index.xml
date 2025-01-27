@@ -15,17 +15,17 @@
       
       <guid>http://localhost:1313/writeups/ctf/wscctf/iphone/</guid>
       <description>Recently, I got the chance to play the WSC CTF challenge organized by We Shield Cyber and sponsored by NCA Nepal and Hack@sec.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeups/ctf/wscctf/iphone/features.png" />
     </item>
     
     <item>
-      <title>WSC CTF 2024 Quals: Ransome</title>
+      <title>Ransome</title>
       <link>http://localhost:1313/writeups/ctf/wscctf/ransome/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/writeups/ctf/wscctf/ransome/</guid>
       <description>[Note: the email was blured for user privacy]</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeups/ctf/wscctf/ransome/features.png" />
     </item>
     
   </channel>

@@ -2,7 +2,6 @@
 title: "Bhagini Sahar"
 date: 2024-09-24
 draft: false
-images: ["/images/description.png"]
 Tags:
 - CTF
 - Bhagini Sahar

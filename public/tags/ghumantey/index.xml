@@ -15,7 +15,7 @@
       
       <guid>http://localhost:1313/writeups/ctf/ncactf/ghumantey/</guid>
       <description>Recently, I created an OSINT challenge for Team NCA@Nepal .</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeups/ctf/ncactf/ghumantey/features.png" />
     </item>
     
   </channel>

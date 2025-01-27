@@ -1,5 +1,5 @@
 ---
-title: "RootMe"
+title: "RootMe writeup - Tryhackme"
 date: 2025-01-27
 draft: false
 Tags:

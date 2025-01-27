@@ -2,7 +2,6 @@
 title: "Ghumantey 2.0"
 date: 2024-09-24
 draft: false
-images: ["/images/description.png"]
 Tags:
 - CTF
 - WSC CTF
