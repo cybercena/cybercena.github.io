@@ -16,7 +16,7 @@ GitHub has a default feature that can expose your email address to anyone. While
 
 Now, let's visit the repository of the target whose email you want to check. Click on any commit, and you'll see the full commit URL in your browser's address bar. To reveal the email address, simply add .patch to the end of the URL, and you'll be able to see the associated email address.
 
-![alt text](image-1.png)
+![a text](image-1.png)
 
 ![alt text](image-2.png)
 
