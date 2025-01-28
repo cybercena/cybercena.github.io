@@ -2,9 +2,9 @@
 ## Cybersecurity learner | CTF Player
 
 ### **Personals:**
-- I'm pursuing Bachelor's degree (BIM)
-- I'm a part time Cybersecurity learner
-- I'm from Nepal 
+- I'm pursuing Bachelor's degree (BIM).
+- I'm a part time Cybersecurity learner.
+- I'm from Nepal.
 
 
 ### **Certifications**

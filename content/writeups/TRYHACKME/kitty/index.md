@@ -1,6 +1,6 @@
 ---
 title: "Kitty writeup - Tryhackme"
-date: 2025-01-27
+date: 2025-01-28
 draft: false
 Tags:
 - Tryhackme
@@ -52,4 +52,3 @@ when i tried sql injection with known username we got notifications
  let's try different version of injection using ``AND``.
 ![ ](image-6.png)
  we are login successfully and we came to know the site is vulnerable to SQL injection. lets try to enumurate database and number of column by using ``ORDER BY``.
- 
