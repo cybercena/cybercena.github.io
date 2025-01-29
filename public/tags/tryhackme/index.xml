@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Sonam Tamang </copyright>
-    <lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/tryhackme/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/tryhackme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kitty writeup - Tryhackme</title>
+      <link>http://localhost:1313/writeups/tryhackme/kitty/</link>
+      <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/writeups/tryhackme/kitty/</guid>
+      <description>let&amp;rsquo;s on the machine and start with a nmap scan on the ipaddress.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeups/tryhackme/kitty/features.png" />
+    </item>
+    
     <item>
       <title>RootMe writeup - Tryhackme</title>
       <link>http://localhost:1313/writeups/tryhackme/rootme/</link>
