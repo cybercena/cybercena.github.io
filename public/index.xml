@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Sonam Tamang </copyright>
-    <lastBuildDate>Tue, 28 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Whoami</title>
+      <link>http://localhost:1313/whoami/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/whoami/</guid>
+      <description>Personals: # I&amp;rsquo;m pursuing Bachelor&amp;rsquo;s degree (BIM).</description>
+      
+    </item>
+    
     <item>
       <title>Kitty writeup - Tryhackme</title>
       <link>http://localhost:1313/writeups/tryhackme/kitty/</link>
@@ -116,16 +126,6 @@
       <guid>http://localhost:1313/writeups/ctf/wscctf/ghumantey-2/</guid>
       <description>Description: # Last time, you guys helped me win the brand-new iPhone 16 that my friend promised me.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/writeups/ctf/wscctf/ghumantey-2/features.png" />
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/whoami/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/whoami/</guid>
-      <description>Cybersecurity learner | CTF Player # Personals: # I&amp;rsquo;m pursuing Bachelor&amp;rsquo;s degree (BIM).</description>
-      
     </item>
     
   </channel>

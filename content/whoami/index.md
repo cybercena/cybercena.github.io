@@ -1,5 +1,8 @@
-
-## Cybersecurity learner | CTF Player
+---
+title: "Whoami"
+date: 2025-01-30
+---
+<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2391773" style="border:none; width:100%; height:100px;"></iframe>
 
 ### **Personals:**
 - I'm pursuing Bachelor's degree (BIM).
