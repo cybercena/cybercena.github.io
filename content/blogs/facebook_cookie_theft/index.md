@@ -1,5 +1,5 @@
 ---
-title: "Facebook Hijacked: The Rise of Cookie Theft"
+title: "Investigating Facebook Account Takeovers"
 date: 2025-02-19
 draft: false
 Tags:
