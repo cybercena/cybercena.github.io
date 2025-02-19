@@ -1,5 +1,5 @@
 ---
-title: "How Hackers Steal Facebook with Cookie Theft"
+title: "Facebook Hijacked: The Rise of Cookie Theft"
 date: 2025-02-19
 draft: false
 Tags:
